@@ -1,0 +1,11 @@
+# Ignore environment variable files
+#.env
+
+# Ignore log files
+*.log
+
+# Ignore compiled bytecode
+__pycache__/
+
+# Ignore specific directories
+data/
