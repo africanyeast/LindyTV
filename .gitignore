@@ -9,3 +9,5 @@ __pycache__/
 
 # Ignore specific directories
 data/
+
+client_secret.json
