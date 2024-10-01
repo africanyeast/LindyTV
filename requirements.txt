@@ -10,6 +10,8 @@ certifi==2024.8.30
     # via requests
 charset-normalizer==3.3.2
     # via requests
+exceptiongroup==1.2.2
+    # via pytest
 google-api-core==2.20.0
     # via google-api-python-client
 google-api-python-client==2.147.0
@@ -32,10 +34,16 @@ httplib2==0.22.0
     #   google-auth-httplib2
 idna==3.10
     # via requests
+iniconfig==2.0.0
+    # via pytest
 isodate==0.6.1
     # via -r requirements.in
 oauthlib==3.2.2
     # via requests-oauthlib
+packaging==24.1
+    # via pytest
+pluggy==1.5.0
+    # via pytest
 proto-plus==1.24.0
     # via google-api-core
 protobuf==5.28.2
@@ -51,6 +59,8 @@ pyasn1-modules==0.4.1
     # via google-auth
 pyparsing==3.1.4
     # via httplib2
+pytest==8.3.3
+    # via -r requirements.in
 python-crontab==3.2.0
     # via -r requirements.in
 python-dateutil==2.9.0.post0
@@ -63,10 +73,14 @@ requests-oauthlib==2.0.0
     # via google-auth-oauthlib
 rsa==4.9
     # via google-auth
+schedule==1.2.2
+    # via -r requirements.in
 six==1.16.0
     # via
     #   isodate
     #   python-dateutil
+tomli==2.0.1
+    # via pytest
 uritemplate==4.1.1
     # via google-api-python-client
 urllib3==2.2.3

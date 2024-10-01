@@ -22,7 +22,7 @@ user = os.getenv('USER_NAME')
 # operation.save_videos(user)
 
 # Update playlist for user
-# from channels import ChannelOperations
-# yt_api_key = os.getenv('YOUTUBE_API_KEY')
-# operation = ChannelOperations(yt_api_key)
-# operation.update_playlist(user)
+from channels import ChannelOperations
+yt_api_key = os.getenv('YOUTUBE_API_KEY')
+operation = ChannelOperations(yt_api_key)
+operation.update_playlist(user)

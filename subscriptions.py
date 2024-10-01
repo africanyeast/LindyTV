@@ -37,9 +37,6 @@ class SubscriptionOperations:
             SAVE_JSON_FILE(os.path.join(user_folder, 'subscriptions.json'), subscriptions)
             SAVE_JSON_FILE(os.path.join(user_folder, 'tags.json'), tags)
 
-            # Categorize subscriptions by tags
-            #self.categorize_subscriptions(username)
-
         except FileNotFoundError as e:
             print(e)
         except googleapiclient.errors.HttpError as e:

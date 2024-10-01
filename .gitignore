@@ -9,5 +9,9 @@ __pycache__/
 
 # Ignore specific directories
 data/
+tests/
+.pytest_cache
 
 client_secret.json
+
+PID.txt

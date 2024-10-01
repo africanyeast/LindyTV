@@ -1,1 +1,1 @@
-V1 of Lindy
+V1 of Kindy
